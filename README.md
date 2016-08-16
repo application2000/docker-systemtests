@@ -3,9 +3,9 @@
 
 Docker with LAMP setup, firefox and other tools for system tests with codeception.
 
-Based on docker phusion/baseimage (Ubuntu 14.04) and customizations
+Based on docker Ubuntu 16.04 image
 
-Current iamges can also be found at dockerhub:
+Current image can also be found at dockerhub:
 
 https://hub.docker.com/r/yveshoppe/joomla-systemtests/builds/
 
@@ -14,17 +14,9 @@ https://hub.docker.com/r/yveshoppe/joomla-systemtests/builds/
 ## Included software
 
 * Apache 2.4
-* MySQL 5.5
-* PHP
+* MySQL 5.7
+* PHP 7
 * Composer (System wide)
-* Robo.li (System Wide)
-* Pear
-* PHPUnit
-* Phing
-* JoRobo
-* PHP_CommandLineTools
-* PHPcs 1.5.6 including Joomla coding standards
-* PHPcpd
 
 ### Gui Software
 
